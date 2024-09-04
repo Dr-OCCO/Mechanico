@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Local Mechanical Engineer</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="scripts.js" defer></script>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>Mechanical Engineering Solutions</h1>
+            <nav>
+                <ul>
+                    <li><a href="#hero">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#gallery">Gallery</a></li>
+                    <li><a href="#testimonials">Testimonials</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section id="hero">
+        <div class="hero-content">
+            <h2>Precision Engineering at Its Best</h2>
+            <p>Delivering high-quality mechanical solutions for your needs.</p>
+            <a href="#contact" class="cta-button">Get in Touch</a>
+        </div>
+    </section>
+
+    <section id="about">
+        <div class="container">
+            <h2>About Us</h2>
+            <div class="about-content">
+                <div class="about-text">
+                    <p>We are a team of skilled mechanical engineers dedicated to providing top-notch engineering solutions. Our services include consultation, design, and implementation for various mechanical systems.</p>
+                    <p>With years of experience, we are committed to delivering excellence and exceeding your expectations.</p>
+                </div>
+                <div class="about-image">
+                    <img src="images/1.jpg" alt="About Us">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="gallery">
+        <div class="container">
+            <h2>Our Work</h2>
+            <div class="gallery-grid">
+                <div class="gallery-item"><img src="images/5.jpg" alt="Project 1"></div>
+                <div class="gallery-item"><img src="images/3.jpg" alt="Project 2"></div>
+                <div class="gallery-item"><img src="images/4.jpg" alt="Project 3"></div>
+                <div class="gallery-item"><img src="images/1.jpg" alt="Project 4"></div>
+                <div class="gallery-item"><img src="images/2.jpg" alt="Project 5"></div>
+                <div class="gallery-item"><img src="images/3.jpg" alt="Project 6"></div>
+            </div>
+        </div>
+    </section>
+
+    <section id="testimonials">
+        <div class="container">
+            <h2>What Our Clients Say</h2>
+            <div class="testimonial-carousel">
+                <div class="testimonial-item">
+                    <p>"The team was professional, efficient, and delivered outstanding results. Highly recommended!"</p>
+                    <span>- Client A</span>
+                </div>
+                <div class="testimonial-item">
+                    <p>"Exceptional service and attention to detail. The project was completed ahead of schedule."</p>
+                    <span>- Client B</span>
+                </div>
+                <div class="testimonial-item">
+                    <p>"Great communication and top-quality work. They truly understand mechanical engineering."</p>
+                    <span>- Client C</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact">
+        <div class="container">
+            <h2>Contact Us</h2>
+            <div class="contact-info">
+                <div class="contact-details">
+                    <h3>Get in Touch</h3>
+                    <p>Email: contact@mechanicalengineer.com</p>
+                    <p>Phone: (123) 456-7890</p>
+                    <p>Address: 123 Engineering Lane, Tech City, TX</p>
+                </div>
+                <div class="contact-form">
+                    <form>
+                        <label for="name">Name:</label>
+                        <input type="text" id="name" name="name" required>
+
+                        <label for="email">Email:</label>
+                        <input type="email" id="email" name="email" required>
+
+                        <label for="message">Message:</label>
+                        <textarea id="message" name="message" required></textarea>
+
+                        <button type="submit">Send Message</button>
+                    </form>
+                </div>
+            </div>
+            <div id="map"></div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 Local Mechanical Engineer. All rights reserved.</p>
+            <div class="social-media">
+                <a href="#">Facebook</a>
+                <a href="#">Twitter</a>
+                <a href="#">LinkedIn</a>
+            </div>
+        </div>
+    </footer>
+    <script src="https://maps.googleapis.com/maps/api/js?key=YOUR_API_KEY&callback=initMap" async defer></script>
+
+</body>
+</html>
